@@ -40,3 +40,46 @@
 .content {
   color: red;
 }
+
+#container {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #343a40;
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  color: silver;
+  text-align: center;
+  margin: 5px 0px 5px 0px;
+}
+
+.profile-pic-description {
+  color: silver;
+  text-align: center;
+  margin: 5px 0px 5px 0px;
+}
+
+.about-header {
+  color: rgba(192, 192, 192, 0.411);
+}
+
+.about-content {
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+  padding: 10px;
+}
