@@ -1,3 +1,7 @@
 export default function Programming() {
-    return <div className="content">lorem ipsum programming</div>
+  return (
+    <>
+      <footer id="footer">© Justin Dolvin 2021</footer>
+    </>
+  );
 }

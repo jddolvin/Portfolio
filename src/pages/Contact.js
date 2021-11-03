@@ -1,3 +1,7 @@
 export default function Contact() {
-    return <div className="content">lorem ipsum contact</div>
+  return (
+    <>
+      <footer id="footer">© Justin Dolvin 2021</footer>
+    </>
+  );
 }

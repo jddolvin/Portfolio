@@ -1,5 +1,7 @@
 export default function Home() {
   return (
-      <div className="content">lorem ipsum home</div>
-  )
+    <>
+      <footer id="footer">© Justin Dolvin 2021</footer>
+    </>
+  );
 }
