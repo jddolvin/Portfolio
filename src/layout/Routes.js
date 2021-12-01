@@ -15,9 +15,6 @@ export default function Routes() {
         <Route exact={true} path="/">
           <Home />
         </Route>
-        <Route exact={true} path="/programming">
-          <Programming />
-        </Route>
         <Route exact={true} path="/pokedex">
           <Pokedex />
         </Route>
@@ -26,9 +23,6 @@ export default function Routes() {
         </Route>
         <Route exact={true} path="/contact">
           <Contact />
-        </Route>
-        <Route exact={true} path="/about">
-          <About />
         </Route>
         <Route>
           <NotFound />
