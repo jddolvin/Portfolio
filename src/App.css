@@ -4,12 +4,77 @@
 div {
   display: block;
 }
+
+body {
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+}
+
 #container {
   display: flex;
   width: auto;
   flex-direction: column;
   text-align: center;
   align-items: center;
+}
+
+.pokedexWrapper {
+  display: flex;
+  opacity: 0.9;
+  justify-content: center;
+  color: #5bc0de;
+}
+
+.pokemonimg {
+  height: 11em;
+}
+
+.noPokemon {
+  color: red;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.divTable {
+  display: table;
+  max-width: 20em;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.divTableRow {
+  display: table-row;
+}
+
+.divTableHeading {
+  background-color: rgb(54, 54, 54);
+  display: table-header-group;
+  font-weight: bold;
+}
+
+.divTableCell,
+.divTableHead {
+  border: 1px solid #000000;
+  display: table-cell;
+  padding: 3px 10px;
+}
+
+.divTableFoot {
+  background-color: #eee;
+  display: table-footer-group;
+  font-weight: bold;
+}
+
+.divTableBody {
+  display: table-row-group;
+}
+
+.divTableCell:nth-child(1n) {
+  background-color: rgba(220, 220, 220, 0.096);
 }
 
 #footer {
@@ -20,11 +85,11 @@ div {
   text-align: center;
   background-color: #343a40;
   color: white;
-  margin-top:25px;
+  margin-top: 25px;
 }
 
 .profile-pic {
-  width: 300px;
+  width: 330px;
   height: 300px;
   border-radius: 100%;
   color: silver;
@@ -85,7 +150,7 @@ div {
 
 .col {
   color: silver;
-  padding-bottom: 20px
+  padding-bottom: 20px;
 }
 
 .row .col .m2 {
