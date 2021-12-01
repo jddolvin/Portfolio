@@ -10,11 +10,9 @@ export default function Menu() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto top-nav-links">
-          <Nav.Link href="/programming">Programming Projects</Nav.Link>
           <Nav.Link href="/pokedex">Pokedex</Nav.Link>
           <Nav.Link href="/skills">Skills</Nav.Link>
           <Nav.Link href="/contact">Contact Me</Nav.Link>
-          <Nav.Link href="/about">About Me</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
