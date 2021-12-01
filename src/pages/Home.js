@@ -1,3 +1,5 @@
+import profilePic from "../images/profile.jpg"
+
 export default function Home() {
   return (
     <>
