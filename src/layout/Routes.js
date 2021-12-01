@@ -1,10 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
-import Programming from "../pages/Programming";
 import NotFound from "./NotFound";
 import Skills from "../pages/Skills";
 import Pokedex from "../pages/Pokedex";
