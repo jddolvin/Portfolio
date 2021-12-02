@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const Pokedex = () => {
-  const [pokemon, setPokemon] = useState("pikachu");
+  const [pokemon, setPokemon] = useState("");
   const [pokemonData, setPokemonData] = useState([]);
   const [pokemonType, setPokemonType] = useState("");
 
@@ -32,6 +32,11 @@ const Pokedex = () => {
   if (!pokemonData) {
     return (
       <>
+        <div className="blue-text">
+          This is a simple application which pulls data from the PokemonAPI,
+          given a search term. It will return its type, height, weight, and how
+          many battles it has won in the TV series.
+        </div>
         <div className="center">
           <form onSubmit={handleSubmit}>
             <label>
@@ -44,12 +49,16 @@ const Pokedex = () => {
           </form>
         </div>
         <div className="noPokemon">No Such Pokemon Found!</div>
-
       </>
     );
   } else {
     return (
       <>
+        <div className="blue-text">
+          This is a simple application which pulls data from the PokemonAPI,
+          given a search term. It will return its type, height, weight, and how
+          many battles it has won in the TV series.
+        </div>
         <div className="center">
           <form onSubmit={handleSubmit}>
             <label>
@@ -80,7 +89,7 @@ const Pokedex = () => {
                       <div className="divTableCell">Height</div>
                       <div className="divTableCell">
                         {" "}
-                        {Math.round(data.height * 3.9)} "
+                        {Math.round(data.height * 3.9)}"
                       </div>
                     </div>
                     <div className="divTableRow">
