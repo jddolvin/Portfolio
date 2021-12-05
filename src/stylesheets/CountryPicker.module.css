@@ -2,3 +2,7 @@
   width: 30%;
   margin-bottom: 30px !important;
 }
+.MuiNativeSelect-root {
+  background-color: #5bc0de;
+  color: #5bc0de;
+}
