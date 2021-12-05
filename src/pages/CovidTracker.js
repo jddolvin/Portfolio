@@ -24,7 +24,8 @@ export default class Covid extends React.Component {
     const { data, country } = this.state;
     return (
       <div className={styles.container}>
-        <div className="noPokemon">There is an issue with the API's endpoint for recovered patients. I have alerted the developer to this issue.</div>
+        <div className="noPokemon">There is an issue with the API's endpoint for recovered patients. I have alerted the developer to this issue.<br/>
+        As a result, the "active cases" section is also inaccurate.</div>
         <div className="blue-text">This page uses data pulled from Mathdroid's COVID-19 tracker endpoint. <br />
         Their repository can be seen at <a href="https://github.com/mathdroid/covid-19-api">Mathdroid's COVID-19 tracker API</a></div>
         <img className={styles.image} src={covidImage} alt="COVID-19" />
