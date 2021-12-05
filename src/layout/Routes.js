@@ -6,6 +6,8 @@ import Home from "../pages/Home";
 import NotFound from "./NotFound";
 import Skills from "../pages/Skills";
 import Pokedex from "../pages/Pokedex";
+import Covid from "../pages/CovidTracker";
+
 export default function Routes() {
   return (
     <Router>
@@ -21,6 +23,9 @@ export default function Routes() {
         </Route>
         <Route exact={true} path="/contact">
           <Contact />
+        </Route>
+        <Route exact={true} path="/covid-tracker">
+          <Covid />
         </Route>
         <Route>
           <NotFound />
