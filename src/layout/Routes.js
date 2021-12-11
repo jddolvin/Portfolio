@@ -7,6 +7,7 @@ import NotFound from "./NotFound";
 import Skills from "../pages/Skills";
 import Pokedex from "../pages/Pokedex";
 import Covid from "../pages/CovidTracker";
+import TetrisApp from "../tetris/TetrisApp";
 
 export default function Routes() {
   return (
@@ -26,6 +27,9 @@ export default function Routes() {
         </Route>
         <Route exact={true} path="/covid-tracker">
           <Covid />
+        </Route>
+        <Route exact={true} path="/tetris">
+          <TetrisApp />
         </Route>
         <Route>
           <NotFound />

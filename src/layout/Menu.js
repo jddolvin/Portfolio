@@ -12,6 +12,7 @@ export default function Menu() {
         <Nav className="mr-auto top-nav-links">
           <Nav.Link href="/covid-tracker">COVID-19 Tracker</Nav.Link>
           <Nav.Link href="/pokedex">Pokedex</Nav.Link>
+          <Nav.Link href="/tetris">Play Some Tetris</Nav.Link>
           <Nav.Link href="/skills">Skills</Nav.Link>
           <Nav.Link href="/contact">Contact Me</Nav.Link>
         </Nav>
