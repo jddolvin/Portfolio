@@ -95,7 +95,6 @@ const Tetris = () => {
 
   return (
     <StyledTetrisWrapper
-      role="button"
       tabIndex="0"
       onKeyDown={(e) => move(e)}
       onKeyUp={keyUp}
@@ -110,6 +109,7 @@ const Tetris = () => {
               <Display text={`Score: ${score}`} />
               <Display text={`Rows: ${rows}`} />
               <Display text={`Level: ${level}`} />
+              <Display text="Use the arrow keys on your keyboard to control the tetrominos. Use the up key to rotate your tetromino." />
             </div>
           )}
           <StartButton callback={startGame} />
