@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="about-content text-center">
+      <div className="about-content">
         <h1 className="about-header">About Me</h1>
         <h2 className="about-subheader">
           Mission-driven full stack developer with a passion for thoughtful UI
@@ -26,9 +26,9 @@ export default function Home() {
         <br />
         <p className="about-paragraph">
           I've always sought out opportunities that are meaningful to me, and
-          taken on challenges that push me to learn more. Although my
+          taken on challenges that push me to learn more. <br /> Although my
           professional path has taken many twists and turns - from retail
-          management, to production supervisor, to construction worker - I've
+          management, to production supervisor, to construction worker - <br />I've
           never stopped engaging my passion to help others and solve problems.
         </p>
         <p className="about-paragraph">

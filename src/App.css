@@ -1,9 +1,7 @@
 .content {
   color: red;
 }
-div {
-  display: block;
-}
+
 
 body {
   text-align: center;
@@ -104,15 +102,16 @@ form {
 }
 
 .about-header {
-  color: rgba(192, 192, 192, 0.411);
+  color: #5bc0de;
 }
 
 .about-subheader {
-  text-align: center;
   border-left: 10px solid #5bc0de;
 }
 
 .about-content {
+  width: 65%;
+  margin:auto;
   color: white;
   margin-top: 40px;
   padding: 10px;
