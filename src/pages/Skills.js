@@ -22,15 +22,15 @@ export default function Skills() {
             <h4 class="blue-text">HTML</h4>
             <div class="row text-center">
               <div class="col s4 m2">
-                <img alt="" src={html5Pic} className="skills-img" />
+                <img alt="HTML5" title="HTML5" src={html5Pic} className="skills-img" />
                 HTML5
               </div>
               <div class="col s4 m2">
-                <img alt="" src={reactPic} className="skills-img" />
+                <img alt="JSX" title="JSX" src={reactPic} className="skills-img" />
                 JSX
               </div>
               <div class="col s4 m2">
-                <img alt="" src={hamlPic} className="skills-img" />
+                <img alt="HAML" title="HAML" src={hamlPic} className="skills-img" />
                 Haml
               </div>
             </div>
@@ -42,19 +42,19 @@ export default function Skills() {
             <h4 class="blue-text">CSS</h4>
             <div class="row text-center">
               <div class="col s4 m2">
-                <img alt="" src={css3Pic} className="skills-img" />
+                <img alt="CSS3" title="CSS3" src={css3Pic} className="skills-img" />
                 CSS3
               </div>
               <div class="col s4 m2">
-                <img alt="" src={sassPic} className="skills-img" />
+                <img alt="SASS" title="SASS" src={sassPic} className="skills-img" />
                 SASS
               </div>
               <div class="col s4 m2">
-                <img alt="" src={bootstrapPic} className="skills-img" />
+                <img alt="Bootstrap" title="Bootstrap" src={bootstrapPic} className="skills-img" />
                 Bootstrap
               </div>
               <div class="col s4 m2">
-                <img alt="" src={materializePic} className="skills-img" />
+                <img alt="Materialize" title="Materialize" src={materializePic} className="skills-img" />
                 Materialize
               </div>
             </div>
@@ -66,19 +66,19 @@ export default function Skills() {
             <h4 class="blue-text">JavaScript</h4>
             <div class="row text-center">
               <div class="col s4 m2">
-                <img alt="" src={reactPic} className="skills-img" />
+                <img alt="React.js" title="React.js" src={reactPic} className="skills-img" />
                 React
               </div>
               <div class="col s4 m2">
-                <img alt="" src={javascriptPic} className="skills-img" />
+                <img alt="JavaScript" title="JavaScript" src={javascriptPic} className="skills-img" />
                 JavaScript
               </div>
               <div class="col s4 m2">
-                <img alt="" src={jqueryPic} className="skills-img" />
+                <img alt="jQuery" title="jQuery" src={jqueryPic} className="skills-img" />
                 jQuery
               </div>
               <div class="col s4 m2">
-                <img alt="" src={nodejsPic} className="skills-img" />
+                <img alt="Node.js" title="Node.js" src={nodejsPic} className="skills-img" />
                 Node
               </div>
             </div>
@@ -90,15 +90,15 @@ export default function Skills() {
             <h4 class="blue-text">Other</h4>
             <div class="row text-center">
               <div class="col s4 m2">
-                <img alt="" src={githubPic} className="skills-img" />
+                <img alt="GitHub" title="GitHub" src={githubPic} className="skills-img" />
                 GitHub
               </div>
               <div class="col s4 m2">
-                <img alt="" src={herokuPic} className="skills-img" />
+                <img alt="Heroku" title="Heroku" src={herokuPic} className="skills-img" />
                 Heroku
               </div>
               <div class="col s4 m2">
-                <img alt="" src={postgresqlPic} className="skills-img" />
+                <img alt="PostGreSQL" title="PostGreSQL" src={postgresqlPic} className="skills-img" />
                 PostGreSQL
               </div>
             </div>
